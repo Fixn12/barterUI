@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-      const confettiContainer = document.getElementById('confetti-container');
+      
+    const confettiContainer = document.getElementById('confetti-container');
 
       function createConfettiPiece() {
         const piece = document.createElement('div');
@@ -169,4 +170,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 return favorite.title === item.title;
             });
         }
+        
     
